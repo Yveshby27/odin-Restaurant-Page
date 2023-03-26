@@ -1,0 +1,50 @@
+body{
+    background: url("background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: sans-serif;
+    color:white;
+}
+#content{
+    width:60vw;
+    height:100vh;
+}
+#title{
+    text-align: center;
+  
+}
+#tabs{
+    display: flex;
+    justify-content: center;
+}
+#quote{
+    font-style: italic;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+}
+#home,#contact,#menu{
+padding:16px;
+background-color: white;
+font-weight: 700;
+}
+
+.paragraph{
+    font-size: medium;
+}
+.paragraph li{
+    padding-bottom: 15px;
+}
+#menu-section{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    gap:12px;
+}
+
+#menu-section li{
+    padding-bottom:10px;
+    font-size: 18px;
+}
+#contact-section p{
+    font-size: 20px;
+}
